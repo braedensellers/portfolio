@@ -31,12 +31,12 @@ export const Carousel = () => {
         >
             <SwiperSlide className="rounded-xl bg-slate-900 border-white/10 border hover:border-amber-300 transition-all duration-300 group">
                 <CarouselSlide 
-                    title="Placeholder 1"
-                    description="The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet."
-                    skills={["React", "Node.js", "Typescript", "MongoDB"]}
-                    githubLink="#"
-                    projectLink="#"
-                    image="https://web-assets.domo.com/blog/wp-content/uploads/2022/05/dashboardDesign.png"
+                    title="Resume Builder"
+                    description="A web app that lets users build clean, ATS-friendly résumés with customizable inputs and instant PDF preview and export."
+                    skills={["React", "Node.js", "Typescript", "Vite", "Tailwind CSS"]}
+                    githubLink="https://github.com/braedensellers/resume-builder"
+                    projectLink="https://resume-builder-beta-jade.vercel.app/"
+                    image="portfolio/src/assets/resume-builder.PNG"
                 />
             </SwiperSlide>
 

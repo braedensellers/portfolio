@@ -11,12 +11,12 @@ interface CarouselSlideProps {
 
 export const CarouselSlide = ({ title, description, skills, githubLink, projectLink, image }: CarouselSlideProps) => {
     return (
-        <div className="relative w-full h-full rounded-lg shadow-xl overflow-hidden">
+        <div className="relative w-full h-full rounded-lg shadow-xl overflow-hidden group">
             <div className="w-full h-48 overflow-hidden mb-2 object-cover">
                 <img
                     src={image}
                     alt={title} 
-                    className="w-full h-full transition-transform duration-300 rounded-t-lg hover:filter-none"
+                    className="object-cover w-full h-full transition-transform duration-300 rounded-t-lg hover:filter-none group-hover:scale-105"
                 />
             </div>
             <div className="p-4">
@@ -35,7 +35,7 @@ export const CarouselSlide = ({ title, description, skills, githubLink, projectL
                 </div>
 
                 <div className="flex justify-between items-center group">
-                    <a href={projectLink} className="text-blue-400 hover:text-blue-300 transition-colors text-decoration-none font-semibold">
+                    <a href={projectLink} target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors text-decoration-none font-semibold">
                         View Project
                         <ArrowUpRight className="inline-block ml-1 group-hover:-translate-y-1 transition-transform ease" size={16} strokeWidth={2.5} />
                     </a>
