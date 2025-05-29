@@ -42,12 +42,12 @@ export const Carousel = () => {
 
             <SwiperSlide className="rounded-xl bg-slate-900 border-white/10 border hover:border-amber-300 transition-all duration-300 group">
                 <CarouselSlide 
-                    title="Placeholder 2"
-                    description="The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet."
-                    skills={["React", "Node.js", "Typescript", "MongoDB"]}
-                    githubLink="#"
-                    projectLink="#"
-                    image="https://web-assets.domo.com/blog/wp-content/uploads/2022/05/dashboardDesign.png"
+                    title="Classic Minesweeper"
+                    description="A clone of the classic Minesweeper game with modern polish using only vanilla HTML, JS, and CSS."
+                    skills={["HTML5", "CSS3", "JavaScript"]}
+                    githubLink="https://github.com/braedensellers/minesweeper"
+                    projectLink="https://minesweeper-one-tan.vercel.app/"
+                    image="portfolio/src/assets/minesweeper_screen.PNG"
                 />
             </SwiperSlide>
 
