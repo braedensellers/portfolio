@@ -36,7 +36,7 @@ export const Carousel = () => {
                     skills={["React", "Node.js", "Typescript", "Vite", "Tailwind CSS"]}
                     githubLink="https://github.com/braedensellers/resume-builder"
                     projectLink="https://resume-builder-beta-jade.vercel.app/"
-                    image="src/assets/resume-builder.PNG"
+                    image="/portfolio/assets/resume-builder.PNG"
                 />
             </SwiperSlide>
 
@@ -47,7 +47,7 @@ export const Carousel = () => {
                     skills={["HTML5", "CSS3", "JavaScript"]}
                     githubLink="https://github.com/braedensellers/minesweeper"
                     projectLink="https://minesweeper-one-tan.vercel.app/"
-                    image="src/assets/minesweeper_screen.PNG"
+                    image="/portfolio/assets/minesweeper_screen.PNG"
                 />
             </SwiperSlide>
 
