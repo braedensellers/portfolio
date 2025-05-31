@@ -35,21 +35,31 @@ export const CarouselSlide = ({ title, description, skills, githubLink, projectL
                 </div>
 
                 <div className="flex justify-between items-center group">
-                    <a href={projectLink} target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors text-decoration-none font-semibold">
-                        View Project
-                        <ArrowUpRight className="inline-block ml-1 group-hover:-translate-y-1 transition-transform ease" size={16} strokeWidth={2.5} />
-                    </a>
+                    {projectLink !== "#" ? (
+                        <a
+                            href={projectLink}
+                            target="_blank"
+                            className="text-blue-400 hover:text-blue-300 transition-colors text-decoration-none font-semibold"
+                        >
+                            View Project
+                            <ArrowUpRight className="inline-block ml-1 group-hover:-translate-y-1 transition-transform ease" size={16} strokeWidth={2.5} />
+                        </a>
+                    ) : (
+                        <span className="text-gray-400 font-semibold">Project link coming soon</span>
+                    )}
                 </div>
 
-                <a
-                    href={githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute bottom-4 right-4 text-slate-200 hover:text-amber-300 hover:scale-110 hover:border-white/10 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] transition duration-200 ease bg-white/30 rounded-full p-2 flex items-center justify-center"
-                    aria-label="GitHub"
-                >
-                    <Github size={28} />
-                </a>
+                {githubLink !== "#" && (
+                    <a
+                        href={githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="absolute bottom-4 right-4 text-slate-200 hover:text-amber-300 hover:scale-110 hover:border-white/10 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] transition duration-200 ease bg-white/30 rounded-full p-2 flex items-center justify-center"
+                        aria-label="GitHub"
+                    >
+                        <Github size={28} />
+                    </a>
+                )}
             </div>
         </div>
     )

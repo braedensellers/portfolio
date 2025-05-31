@@ -33,7 +33,7 @@ export const Carousel = () => {
                 <CarouselSlide 
                     title="Resume Builder"
                     description="A web app that lets users build clean, ATS-friendly résumés with customizable inputs and instant PDF preview and export."
-                    skills={["React", "Node.js", "Typescript", "Vite", "Tailwind CSS"]}
+                    skills={["React", "Node.js", "TypeScript", "Vite", "Tailwind CSS"]}
                     githubLink="https://github.com/braedensellers/resume-builder"
                     projectLink="https://resume-builder-beta-jade.vercel.app/"
                     image="/portfolio/assets/resume-builder.PNG"
@@ -53,7 +53,18 @@ export const Carousel = () => {
 
             <SwiperSlide className="rounded-xl bg-slate-900 border-white/10 border hover:border-amber-300 transition-all duration-300 group">
                 <CarouselSlide 
-                    title="Placeholder 3"
+                    title="Multi-Step Form"
+                    description="A full-stack, robust, and customizable multi-step form infrastructure with an easy-to-maintain CMS system and custom validation."
+                    skills={["React", "Vite", "TypeScript", "MongoDB", "Material UI"]}
+                    githubLink="#"
+                    projectLink="#"
+                    image="/portfolio/assets/multi_step_form.PNG"
+                />
+            </SwiperSlide>
+
+            <SwiperSlide className="rounded-xl bg-slate-900 border-white/10 border hover:border-amber-300 transition-all duration-300 group">
+                <CarouselSlide 
+                    title="Placeholder"
                     description="The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet."
                     skills={["React", "Node.js", "Typescript", "MongoDB"]}
                     githubLink="#"
@@ -64,23 +75,12 @@ export const Carousel = () => {
 
             <SwiperSlide className="rounded-xl bg-slate-900 border-white/10 border hover:border-amber-300 transition-all duration-300 group">
                 <CarouselSlide 
-                    title="Placeholder 4"
-                    description="The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet."
-                    skills={["React", "Node.js", "Typescript", "MongoDB"]}
+                    title="Finance Manager"
+                    description="Finance and budget manager for users to track and manage their financial accounts all in one place."
+                    skills={["Next.js", "React", "Plaid API", "Chart.js", "Tailwind CSS"]}
                     githubLink="#"
                     projectLink="#"
-                    image="https://web-assets.domo.com/blog/wp-content/uploads/2022/05/dashboardDesign.png"
-                />
-            </SwiperSlide>
-
-            <SwiperSlide className="rounded-xl bg-slate-900 border-white/10 border hover:border-amber-300 transition-all duration-300 group">
-                <CarouselSlide 
-                    title="Placeholder 5"
-                    description="The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet."
-                    skills={["React", "Node.js", "Typescript", "MongoDB"]}
-                    githubLink="#"
-                    projectLink="#"
-                    image="https://web-assets.domo.com/blog/wp-content/uploads/2022/05/dashboardDesign.png"
+                    image="/portfolio/assets/finance_manager.PNG"
                 />
             </SwiperSlide>
         </Swiper>
