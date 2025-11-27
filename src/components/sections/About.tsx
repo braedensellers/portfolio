@@ -284,7 +284,7 @@ export const About = () => {
                     seamlessly into clinical workflows.
                   </p>
                   <span className="date vertical-timeline-element-date text-md mx-3 text-slate-300">
-                    2024 - 2025
+                    2025
                   </span>
                 </VerticalTimelineElement>
 
