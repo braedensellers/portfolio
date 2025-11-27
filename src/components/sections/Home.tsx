@@ -45,9 +45,8 @@ export const Home = () => {
                         </span>
                     </h3>
                     <p className="text-slate-400 text-lg mb-8 max-w-xl mx-auto">
-                        I'm a passionate developer with the goal to craft pixel-perfect
-                        user interfaces that expertly mix thoughtful design with robust
-                        engineering.
+                        I build high-performance, production-grade software that blends clean architecture,
+                        precise engineering, and refined user experience into products that teams can trust at scale.
                     </p>
                     <div className="flex justify-center space-x-4 mb-8">
                         <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:scale-105 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
